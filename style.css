@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(240, 240, 240);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-top: 50px
+
+}
+
+.caja1, .caja2, .caja3, .caja4 {
+background-color: white;
+width: 280px;
+height: 290px;
+display: flex;
+align-items: center;
+justify-content: center;
+box-shadow: 2px 2px 7px 1px rgb(0, 0, 0, 0.2);
+transition: transform 0.2s linear;
+
+
+}
+
+h1{
+    font-size: 12px;
+    color: rgb(184, 184, 184);
+   
+     }
+
+p{
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(151, 150, 150);
+    margin-top: 0.7px;
+}
+
+.imagen-tablet, .imagen-mouse, .imagen-camara, .imagen-play {
+    width: 250px;
+    height: 200px;
+     }
+.imagen-tablet img, .imagen-mouse img, .imagen-camara img, .imagen-play img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid rgb(196, 195, 195);
+}     
+
+.texto-tablet, .texto-mouse, .texto-camara, .texto-play{
+  margin-top: 1px
+}
+
+.caja1:hover, .caja2:hover, .caja3:hover, .caja4:hover {
+    transform: translateY(-15px);
+    box-shadow: 8px 8px 30px 10px rgb(0, 0, 0, 0.28);
+    
+}
